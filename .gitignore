@@ -1,0 +1,8 @@
+!.gitignore
+
+.idea
+var/cache
+var/logs
+var/runtime
+web/assets
+app/vendor

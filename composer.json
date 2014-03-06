@@ -1,0 +1,29 @@
+{
+    "name": "vendor_name/package_name",
+    "description": "description_text",
+    "license": "proprietary",
+    "version": "0.0.1",
+    "minimum-stability":"dev",
+    "authors": [
+        {
+            "name": "author's name",
+            "email": "email@example.com"
+        }
+    ],
+    "config": {
+        "vendor-dir": "app/vendor"
+    },
+    "require": {
+        "php": ">=5.4.0",
+        "yiisoft/yii2-composer": "dev-master",
+        "yiisoft/yii2": "dev-master",
+        "yiisoft/yii2-bootstrap": "dev-master",
+        "index0h/yii-phar": "dev-master"
+    },
+    "require-dev": {
+        "yiisoft/yii2-codeception": "*",
+        "codeception/codeception": "*",
+        "yiisoft/yii2-debug": "*",
+        "yiisoft/yii2-gii": "*"
+    }
+}
