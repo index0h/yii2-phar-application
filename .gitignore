@@ -4,5 +4,8 @@
 var/cache
 var/logs
 var/runtime
-web/assets
+var/web/assets
 app/vendor
+app.phar
+
+composer.lock
