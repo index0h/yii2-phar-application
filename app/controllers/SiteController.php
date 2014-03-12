@@ -8,7 +8,6 @@
 namespace app\controllers;
 
 use yii\web\Controller;
-use Yii;
 
 /**
  * @author Roman Levishchenko <index.0h@gmail.com>
