@@ -16,9 +16,9 @@ class m000000_000000_basic extends \yii\db\Migration
      * @return bool|void
      */
     public function up()
-	{
+    {
         $this->execute(file_get_contents(\Yii::getAlias('@app/migrations/dump.sql')));
-	}
+    }
 
     /**
      * @inheritdoc
@@ -26,8 +26,8 @@ class m000000_000000_basic extends \yii\db\Migration
      * @return bool
      */
     public function down()
-	{
-		echo "m140311_085601_basic cannot be reverted.\n";
-		return false;
-	}
+    {
+        echo "m140311_085601_basic cannot be reverted.\n";
+        return false;
+    }
 }
