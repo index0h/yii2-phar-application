@@ -6,6 +6,8 @@
  * @license   https://raw.github.com/index0h/yii2-phar-application/master/LICENSE
  */
 
+error_reporting(E_ALL ^ E_STRICT);
+
 define('APP_HOST', isset($_SERVER['HTTP_HOST']) ? $_SERVER['HTTP_HOST'] : 'localhost');
 
 $basePath = realpath(implode(DIRECTORY_SEPARATOR, [__DIR__, '..'])) . DIRECTORY_SEPARATOR;
