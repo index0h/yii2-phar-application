@@ -7,6 +7,8 @@
  * @license   https://raw.github.com/index0h/yii2-phar-application/master/LICENSE
  */
 
+error_reporting(E_ALL ^ E_STRICT);
+
 define('ROOT_PATH', 'phar://' . implode(DIRECTORY_SEPARATOR, [__DIR__, 'app.phar']));
 
 require __DIR__ . DIRECTORY_SEPARATOR . '.test.php';
