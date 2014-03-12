@@ -5,8 +5,6 @@
  * @license   https://raw.github.com/index0h/yii2-phar-application/master/LICENSE
  */
 
-define('YII_DEBUG', true);
-
 return [
     'preload' => ['log'],
     'modules' => [

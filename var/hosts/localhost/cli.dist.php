@@ -30,7 +30,8 @@ return yii\helpers\ArrayHelper::merge(
                         'class' => 'index0h\\phar\\components\\php\\Fixer',
                         'replace' => [
                             '/(\s)realpath\(/us' => '\1\\index0h\\phar\\helpers\\FileHelper::realPath(',
-                            '/(\s)is_dir\(/us' => '\1\\index0h\\phar\\helpers\\FileHelper::isDir('
+                            '/(\s)is_dir\(/us' => '\1\\index0h\\phar\\helpers\\FileHelper::isDir(',
+                            '/(\s)chdir\(/us' => '\1trim(',
                         ]
                     ]
                 ]

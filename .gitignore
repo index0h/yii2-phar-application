@@ -7,5 +7,6 @@ var/runtime
 var/web/assets
 app/vendor
 app.phar
+tests/_log
 
 composer.lock
