@@ -8,7 +8,7 @@
 return yii\helpers\ArrayHelper::merge(
     require __DIR__ . DIRECTORY_SEPARATOR . 'base.dist.php',
     [
-        'preload' => ['log', 'debug'],
+        'bootstrap' => ['log', 'debug'],
         'controllerNamespace' => 'app\\controllers',
         'modules' => [
             'debug' => 'yii\\debug\\Module'
